@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit User</title>
+</head>
+<body>
+	<h1>Edit User</h1>
+	<form id="editUserForm">
+		<label for="id">ID:</label>
+		<input type="number" id="id" name="id"><br><br>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<input type="submit" value="Update User">
+	</form>
+	<script>
+		const form = document.getElementById("editUserForm");
+		form.addEventListener("submit", (event) => {
+			event.preventDefault();
+			const id = document.getElementById("id").value;
+			const name = document.getElementById("name").value;
+			if (!id || !name) {
+				alert("Please enter data");
+			} else {
+				fetch(`/users/${name}`, {
+					method: "PUT",
+					headers: {
+						"Content-Type": "application/json"
+					},
+					body: JSON.stringify({id, name})
+				})
+				.then(response => response.json())
+				.then(data => console.log(data))
+				.catch(error => console.error(error));
+			}
+		});
+	</script>
+</body>
+</html>
