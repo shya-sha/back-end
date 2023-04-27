@@ -1,0 +1,17 @@
+{
+    "name": "hubungkan-express-mongo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: No Test Specified\" && exit 1",
+      "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongodb": "^5.2.0"
+    }
+  }
