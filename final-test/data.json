@@ -1,0 +1,20 @@
+[
+  {
+    "kode": "MKU001",
+    "nama": "Pendidikan Agama",
+    "ruangan": "A201",
+    "jam": "08:00-09:40"
+  },
+  {
+    "kode": "MKU002",
+    "nama": "Pendidikan Pancasila",
+    "ruangan": "A202",
+    "jam": "10:00-11:40"
+  },
+  {
+    "kode": "MKU003",
+    "nama": "Bahasa Inggris",
+    "ruangan": "A203",
+    "jam": "13:00-14:40"
+  }
+]

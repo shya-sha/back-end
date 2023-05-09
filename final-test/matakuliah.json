@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6459a89ca1e9c273b2715a67"
+  },
+  "kode": "MKU001",
+  "nama": "Pendidikan Agama",
+  "ruangan": "A201",
+  "jam": "08:00-09:40"
+},{
+  "_id": {
+    "$oid": "6459a89ca1e9c273b2715a68"
+  },
+  "kode": "MKU002",
+  "nama": "Pendidikan Pancasila",
+  "ruangan": "A202",
+  "jam": "10:00-11:40"
+},{
+  "_id": {
+    "$oid": "6459a89ca1e9c273b2715a69"
+  },
+  "kode": "MKU003",
+  "nama": "Bahasa Inggris",
+  "ruangan": "A203",
+  "jam": "13:00-14:40"
+}]
